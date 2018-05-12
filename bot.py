@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix="#")
 
 @bot.event
 async def on_ready():
-    print("Squads are about to be scheduled")
+    print("ur mom gay")
     print("My bot name is " + bot.user.name)
 
 bot.run("NDQzODg2NDQwMzA1MzkzNjg2.DdUBng.x06sGMDze57xOFTxTgdFu1cg2Tc")
