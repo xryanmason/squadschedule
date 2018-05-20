@@ -28,7 +28,6 @@ bot = commands.Bot(command_prefix="#")
 
 # Test Command
 @bot.event
-<<<<<<< HEAD
 async def on_message(message):
     #Checks if the message is from the bot AND if the user said #schedule
     if message.author.id != bot.user.id and message.content.upper().startswith('#SCHEDULE'):
@@ -52,10 +51,3 @@ async def on_message(message):
 # await bot.send_message(message.channel, (start, event['summary']))
 # One little ID boi
 bot.run("NDQzODg2NDQwMzA1MzkzNjg2.Dd01YA.0HlyDjH-lWHmwKuT48EU2kkrQyM")
-=======
-async def on_ready():
-    print("ur mom gay")
-    print("My bot name is " + bot.user.name)
-
-bot.run("NDQzODg2NDQwMzA1MzkzNjg2.DdUBng.x06sGMDze57xOFTxTgdFu1cg2Tc")
->>>>>>> 8ec60005cbf36114ea31e8b9cd4793c72e6c76cf
