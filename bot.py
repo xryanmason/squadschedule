@@ -127,6 +127,4 @@ async def on_message(message):
                   + "\n\nCHECKWEEK: Works like the CHECKDAY command only it checks their schedule for the next week.")
 
 
-
-
 bot.run("NDQzODg2NDQwMzA1MzkzNjg2.Dd01YA.0HlyDjH-lWHmwKuT48EU2kkrQyM")
